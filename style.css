@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 18pt normal Arial;
+}
+body{
+    background-color: rgb(56, 52, 52);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    margin-top: 30px;
+    width: 30vw;
+    height: 35vh;
+    border: solid;
+    border-radius: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+h1{
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+input{
+    width: 50%;
+    height: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}    
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 80px;
+}
+#mensagem, #mensagem2{
+    color: white;
+    font-size: 30px;
+}
+.pergunta{
+    color: white;
+    font-size: 40px;   
+}
